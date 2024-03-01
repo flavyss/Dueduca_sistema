@@ -1,0 +1,152 @@
+aside.one{
+    position: fixed;
+    width: 20%;
+}
+
+aside.two{
+    margin: 85px 0 0 18%;
+}
+
+aside.two::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+aside.two::-webkit-scrollbar-track {
+    background: transparent;   
+}
+  
+aside.two::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 99, 198);
+    border-radius: 20px; 
+    border: 1px solid black;
+}
+
+aside.two .cardsCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardSingle{
+    width: 100%;
+    padding: 20px;
+}
+
+aside.two .cardCont{
+    width: 100%;
+    border-radius: 5px;
+    color: var(--wt);
+    padding: 15px;
+    background-color: var(--rx);
+}
+
+.cardCont .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardCont .title h3{
+    font-size: 22px;
+}
+
+
+.cardCont .title img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.cardCont .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardCont .footer i{
+    margin: 0 10px;
+}
+
+.cardCont .footer span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cardCont .middle{
+    margin: 10px 0;
+}
+
+.cardCont .middle p{
+    font-size: 12px;
+    font-weight: 900;
+    margin: 10px 0 0 0;
+}
+
+.cardCont .middle h3{
+    font-weight: normal;
+}
+
+.cardCont a{
+    text-decoration: none;
+    color: var(--wt);
+}
+
+.cardCont .more{
+    height: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardCont .more i{
+    font-size: 25px;
+}
+
+form{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form .search{
+    width: 70%;
+    border: 1px solid var(--cc);
+    border-radius: 5px;
+    display: flex;
+}
+
+form .search button{
+    width: 80px;
+    height: 100%;
+    font-size: 20px;
+    color: var(--wt);
+    background-color: var(--azu);
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    border: none;
+}
+
+form .search button:hover{
+    background-color: var(--azum);
+}
+
+form .search input{
+    width: 100%;
+    border:none;
+    padding: 0 10px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    font-size: 20px;
+}
+
+form select{
+    width: 200px;
+    border: none;
+    background-color: var(--azu);
+    color: var(--wt);
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

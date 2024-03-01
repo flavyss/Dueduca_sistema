@@ -1,0 +1,23 @@
+aside.one{
+    position: fixed;
+    width: 20%;
+}
+
+aside.two{
+    margin: 85px 0 0 18%;
+    overflow-y: scroll;
+}
+
+aside.two::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+aside.two::-webkit-scrollbar-track {
+    background: transparent;   
+}
+  
+aside.two::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 99, 198);
+    border-radius: 20px; 
+    border: 1px solid black;
+}

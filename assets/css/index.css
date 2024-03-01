@@ -1,0 +1,200 @@
+aside.one{
+    position: fixed;
+    width: 20%;
+}
+
+aside.two{
+    margin: 85px 0 0 18%;
+    overflow-y: scroll;
+}
+
+aside.two::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+aside.two::-webkit-scrollbar-track {
+    background: transparent;   
+}
+  
+aside.two::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 99, 198);
+    border-radius: 20px; 
+    border: 1px solid black;
+}
+
+aside.two .cardsCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardSingle{
+    width: 100%;
+    padding: 20px;
+}
+
+aside.two .cardCont{
+    width: 100%;
+    border-radius: 5px;
+    color: var(--wt);
+    padding: 15px;
+    background-color: var(--rx);
+}
+
+.cardCont .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardCont .title h3{
+    font-size: 22px;
+}
+
+
+.cardCont .title img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.cardCont .footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.cardCont .footer i{
+    margin: 0 10px;
+}
+
+.cardCont .footer span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cardsAvisos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsAvisos .cardSingle{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.cardCont2{
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.20);
+    padding:  0 20px;
+    border-radius: 5px;
+}
+
+.cardsAvisos .perfil{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid var(--cc);
+}
+
+.cardsAvisos .perfil .foto{
+    width: 80px;
+}
+
+.cardsAvisos .perfil .foto img{
+    width: 100%;
+}
+
+.cardsAvisos .perfil .description{
+    width: 80%;
+    margin: 0 0 0 20px;
+    color: var(--mm);
+}
+
+.cardsAvisos .perfil .description p{
+    font-size: 12px;
+}
+
+.cardsAvisos .perfil .description p span{
+     font-weight: bolder;
+}
+
+.cardsAvisos .buttons{
+    margin: 12px 0;
+}
+
+.cardsAvisos .buttons button{
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--wt);
+    background-color: var(--azu);
+    border: none;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cardsAvisos .buttons button:hover{
+    background-color: var(--azum);
+}
+
+.cardsAvisos .buttons button i{
+    margin: 0 10px 0 0;
+}
+
+.headCard,
+.headCard .title{
+    display: flex;
+    align-items: center;
+}
+
+.headCard{
+    padding: 20px 0;
+    width: 100%;
+    color: var(--mm);
+    border-bottom: 0.5px solid var(--cc);
+    justify-content: space-between;
+}
+
+.headCard i{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+}
+
+.cellsCard{
+    border-bottom: 0.5px solid var(--cc);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cellsCard .content{
+    width: 90%;
+    height: 50px;
+    overflow-y: scroll;
+}
+
+.cellsCard i{
+    color: var(--mm);
+    cursor: pointer;
+}
+
+
+.cellsCard .content::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+.cellsCard .content::-webkit-scrollbar-track {
+    background: transparent;   
+}
+  
+.cellsCard .content::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 99, 198);
+    border-radius: 20px; 
+    border: 1px solid black;
+}

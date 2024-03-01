@@ -1,0 +1,44 @@
+.menuContent{
+    width: 100%;
+    border-right: 1px solid var(--cc);
+    height: 100vh;
+}
+
+.menuSingle{
+    border-bottom: 0.5px solid var(--cc);
+}
+
+.menuSingle .content{
+    display: flex;
+    cursor: pointer;
+    padding: 0 20px 0 0;
+    height: 60px;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    color: var(--blu);
+}
+
+.menuSingle .content > i{
+    color: var(--cc);
+}
+
+.menuSingle .content .icon{
+    margin: 0 20px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+}
+
+.down{
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.drop{
+    height: 300px !important;
+    transition: 1s !important;
+}

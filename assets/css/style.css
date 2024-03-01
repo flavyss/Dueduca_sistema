@@ -1,0 +1,35 @@
+:root {
+    --wt: #fff;
+    --rx: #5400A9;
+    --blu: #1244F3;
+    --vd: #34c37c;
+    --bl: #000;
+    --cc: #ccc;
+    --ee: #EEEEEE;
+    --nc: #9C9C9E;
+    --mm: #666;
+    --vrd: #6CC72A;
+    --azu: #16A5FF;
+    --azum: #0e6ba5;
+    --azf: #5B00FF;
+    --rx: #C200FF;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}

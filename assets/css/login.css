@@ -1,0 +1,271 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url(../images/background.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.opacity{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    background-color: var(--blu);
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+}
+
+section{
+    display: flex;   
+}
+
+section .container{
+    position: relative;
+}
+
+section .btn{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    left: 25px;
+    z-index: 9;
+}
+
+section .btn button{
+    width: 60px;
+    height: 60px;
+    border: 1px solid var(--mm);
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: var(--wt);
+}
+
+section .btn button img{
+    width: 60%;
+    height: 60%;
+    border-radius: 60px;
+}
+
+
+aside.one{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside.one .title{
+    width: 100%;
+    text-align: center;
+}
+
+aside.one .title h1{
+    color: var(--wt);
+    font-weight: 100;
+    font-size: 50px;
+}
+
+aside.one .title h3{
+    color: var(--wt);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+aside.one .lineStar{
+    width: 50%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside.one .lineStar .line{
+    width: 40%;
+    height: 1px;
+    background-color: var(--wt);
+}
+
+aside.one .end{
+    width: 100%;
+    text-align: center;
+}
+
+aside.one .end a{
+    width: 100%;
+    color: var(--wt);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+aside.one .end button{
+    width: 270px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 200px;
+    border: none;
+    opacity: 0.8;
+    font-weight: 100;
+    color: var(--mm);
+}
+
+aside.one .end button:hover{
+    opacity: 1;
+}
+
+aside.one .icon{
+    width: 40px;
+    height: 40px;
+    background-color: var(--wt);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside.one .icon img{
+    width: 25px;
+    cursor: pointer;
+    height: 25px;
+}
+
+aside.one .text{
+    color: var(--wt);
+    font-weight: 900;
+    font-size: 18px;
+}
+
+aside.two{
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--wt);
+}
+
+aside.two .logo{
+    width: 100%;
+    text-align: center;
+}
+
+aside.two .logo img{
+    width:180px;
+    margin: 0 auto;
+}
+
+aside.two .logo h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+aside.two form{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+aside.two form .w100{
+    width: 50%;
+    margin: 0 auto;
+}
+aside.two form .w100s{
+    width: 50%;
+    margin: 0 auto;
+}
+
+aside.two form .w100f{
+    width: 50%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside.two form .inputs{
+    width: 100%;
+    display: flex;
+    border: 1px solid var(--bl);
+    border-radius: 66px;
+    padding: 10px;
+    margin:30px 0;
+    justify-content: space-between;
+}
+
+aside.two form .inputs img{
+    width: 13%;
+    max-width: 30px;
+}
+
+aside.two form .inputs input{
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    color: var(--mm);
+    border: none;
+    width:87%;
+}
+
+aside.two form .w50 a{
+    text-decoration: none;
+    color: var(--mm);
+}
+
+aside.two form .w100s button{
+    padding: 8px;
+    width:50%;
+    margin: 40px 0;
+    border: none;
+    outline: none;
+    color: var(--wt);
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 20px;
+    border-radius: 33px;
+    background-color: var(--blu);
+}
+
+
+aside.two form .w100s button:hover{
+    background-color: var(--mm);
+}
+
+
+@media screen and (max-width: 1000px){
+    section{
+        flex-direction: column-reverse;   
+    }
+    section .btn{
+        display: none;
+    }
+
+    aside.one{
+        display: none;
+    }
+
+    aside.two{
+        width: 100%;
+        height: 100vh;
+    }
+
+    aside.two form .w100{
+        width: 100%;
+        margin: 0 auto;
+    }
+    aside.two form .w100s{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    aside.two form .w100f{
+        width: 100%;
+    }
+}

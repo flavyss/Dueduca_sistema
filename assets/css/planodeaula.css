@@ -1,0 +1,186 @@
+aside.one{
+    position: fixed;
+    width: 20%;
+}
+
+aside.two{
+    margin: 85px 0 0 18%;
+}
+
+aside.two::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+aside.two::-webkit-scrollbar-track {
+    background: transparent;   
+}
+  
+aside.two::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 99, 198);
+    border-radius: 20px; 
+    border: 1px solid black;
+}
+
+
+.tables{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableSingle{
+    width: 100%;
+    padding: 20px;
+}
+
+.tableSingle .tableCont{
+    width: 100%;
+}
+
+.tableSingle .title{
+    width: 100%;
+    padding: 5px 20px;
+    color: var(--wt);
+    background-color: var(--vrd);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.tableSingle .title .init{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+.tableSingle .title a{
+    text-decoration: none;
+    color: var(--wt);
+}
+.tableSingle .title .init i{
+    margin: 0 20px 0 0;
+}
+
+.tableSingle .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 0;
+}
+
+.cells{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--ee);
+    display: flex;
+    align-items: center;
+}
+
+.cells .text{
+    width: 20%;
+    padding: 0 10px;
+}
+
+.cells .text p{
+    width: 100%;
+    font-size: 15px;
+    color: var(--mm);
+    padding: 0 10px;
+}
+
+.cells .content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.cells .content .d1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--mm);
+}
+
+.cells:nth-child(2n+2){
+    background-color: var(--wt);
+}
+
+.cells:hover{
+    background-color: var(--cc);
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.buttons a{
+    margin: 20px;
+}
+
+.buttons button{
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: var(--wt);
+    cursor:pointer;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+
+aside.two .cardsCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardSingle{
+    width: 100%;
+    padding: 20px;
+}
+
+aside.two .cardCont{
+    width: 100%;
+    border-radius: 5px;
+    color: var(--wt);
+    padding: 15px;
+    background-color: var(--rx);
+}
+
+.cardCont .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardCont .title h3{
+    font-size: 22px;
+}
+
+
+.cardCont .title img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.cardCont .footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.cardCont .footer i{
+    margin: 0 10px;
+}
+
+.cardCont .footer span{
+    font-size: 25px;
+    font-weight: bolder;
+}

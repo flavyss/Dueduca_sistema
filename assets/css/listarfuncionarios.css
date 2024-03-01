@@ -1,0 +1,128 @@
+aside.one{
+    position: fixed;
+    width: 20%;
+}
+
+aside.two{
+    margin: 85px 0 0 18%;
+}
+
+aside.two::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+aside.two::-webkit-scrollbar-track {
+    background: transparent;   
+}
+  
+aside.two::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 99, 198);
+    border-radius: 20px; 
+    border: 1px solid black;
+}
+
+form{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form .search{
+    width: 70%;
+    border: 1px solid var(--cc);
+    border-radius: 5px;
+    display: flex;
+}
+
+form .search button{
+    width: 80px;
+    height: 100%;
+    font-size: 20px;
+    color: var(--wt);
+    background-color: var(--azu);
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    border: none;
+}
+
+form .search button:hover{
+    background-color: var(--azum);
+}
+
+form .search input{
+    width: 100%;
+    border:none;
+    padding: 0 10px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    font-size: 20px;
+}
+
+form select{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--azu);
+    color: var(--wt);
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.table{
+    width: 100%;
+}
+
+.table .target{
+    width: 100%;
+    padding: 5px 20px;
+    background-color: var(--vrd);
+    color: var(--wt);
+    border-radius: 5px;
+}
+
+
+.table .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table .content .cell{
+    width: calc(100% / 4);
+    padding: 10px;
+}
+
+.table .content .topic{
+    width: 100%;
+    text-align: center;
+    background-color: var(--wt);
+    border-radius: 5px;
+    color: var(--mm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 50px;
+}
+
+.table .content .topic:nth-child(2n+2){
+    background-color: var(--ee);
+}
+
+.table .content .topic .ico{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-around;
+}
+
+.table .content .topic .ico img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

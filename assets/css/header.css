@@ -1,0 +1,86 @@
+.menuMobile{
+    display: none;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 10px -8px 34px 0px rgba(0,0,0,0.26);
+    position: fixed;
+    left: 0;
+    background-color: var(--wt);
+    top: 0;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 150px;
+}
+
+header .logo img{
+    width: 100%;
+}
+
+header nav.menuDesktop{
+    display: flex;
+    align-items: center;
+}
+
+header nav.menuDesktop ul,
+header nav.menuDesktop li a.perfil{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+header nav.menuDesktop li{
+    margin: 0 15px;
+}
+header nav.menuDesktop li a{
+    text-decoration: none;
+    color: var(--mm);
+}
+
+header nav.menuDesktop li a img{
+    width: 34px;
+}
+
+header nav.menuDesktop li a.perfil img{
+    width: 50px;
+}
+
+header nav.menuDesktop li a.perfil .description{
+    margin: 0 10px 0 0;
+}
+
+header nav.menuDesktop li a.perfil .description h3{
+    margin: 0 7px 0 0; 
+    font-size: 15px;
+}
+
+header nav.menuDesktop li a.perfil .description p{
+    font-size: 12px;
+}
+
+header nav.menuDesktop li a.perfil .description .status{
+    display: flex;
+    align-items: center;
+}
+
+header nav.menuDesktop li a.perfil .description .status p{
+    margin: 0 5px 0 0;
+}
+
+
+header nav.menuDesktop li a.perfil .description .ball{
+    width: 8px;
+    height: 8px;
+    border-radius: 555px;
+    background-color: var(--vd);
+}
